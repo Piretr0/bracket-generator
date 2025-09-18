@@ -7,9 +7,13 @@ const teams = [
   { id: 6, nazwaZespolu: "Team F", users: [{ id: 6, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
   { id: 7, nazwaZespolu: "Team G", users: [{ id: 7, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
   { id: 8, nazwaZespolu: "Team H", users: [{ id: 8, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
-  { id: 9, nazwaZespolu: "Team H", users: [{ id: 9, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
-  { id: 10, nazwaZespolu: "Team H", users: [{ id: 10, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
-  { id: 11, nazwaZespolu: "Team H", users: [{ id: 11, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
+  { id: 9, nazwaZespolu: "Team I", users: [{ id: 9, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
+  { id: 10, nazwaZespolu: "Team J", users: [{ id: 10, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
+  { id: 11, nazwaZespolu: "Team K", users: [{ id: 11, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
+  { id: 12, nazwaZespolu: "Team L", users: [{ id: 12, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
+  { id: 13, nazwaZespolu: "Team M", users: [{ id: 13, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
+  { id: 14, nazwaZespolu: "Team N", users: [{ id: 14, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
+  { id: 15, nazwaZespolu: "Team O", users: [{ id: 15, imie: "Marek", nazwisko: "Lewandowski", rezerwa: 0 }] },
 ]
 
 export default teams;

@@ -16,7 +16,6 @@ const bracketData = generateBracket();
       final: bracketData.final
     }
   ]);
-console.log("Initial matches state:", matches);
 
   const handleWinner = (matchId, winnerTeam) => {
     setMatches(prev => {

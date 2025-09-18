@@ -6,7 +6,6 @@ const Bracket = ({ matches, onWinner }) => {
     return <div>Brak danych do wyświetlenia drabinki.</div>;
   }
 
-  console.log("Matches prop:", matches);
   const { prematches = [], generalmatches = [], final = null } = matches[0];
 
 const columns = [
@@ -16,22 +15,16 @@ const columns = [
 ];
 
 return (
+<div>
   <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", gap: "40px" }}>
     {columns.map((col, i) => (
-      <div
-        key={i}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: i === 0 ? "flex-end" : "center", // prematches na dole, reszta wycentrowana
-          alignItems: "center",
-          gap: "20px"
-        }}
-      >
-        <Round matches={col.matches} roundIndex={i} onWinner={onWinner} />
-      </div>
+
+        <Round matches={col.matches} roundIndex={i} onWinner={onWinner} key={i} />
+
     ))}
   </div>
+</div>
+  
 );
 
 };

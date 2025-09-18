@@ -51,7 +51,8 @@ function generateBracket() {
   matches.generalmatches.push(currentRound);
 
   // Tworzenie kolejnych rund aż do finału
-  while (currentRound.length > 1) {
+  // while (currentRound.length > 1) { //z finałem włącznie w generalmatches
+  while (currentRound.length > 2) { // bez finału w generalmatches 
     const nextRound = [];
     for (let i = 0; i < currentRound.length; i += 2) {
       nextRound.push({
